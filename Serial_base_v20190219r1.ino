@@ -166,7 +166,7 @@ void AnalogOUT(){
       
     case 'v':
       // 読み込みデータが　v(mV) の場合
-      aoDuty = aoDuty / 5000 * 225;
+      aoDuty = aoDuty / 5000 * 255;
       analogWrite(vNumA, aoDuty);
       //delay(1000);
       //Serial.print(aoDuty);
